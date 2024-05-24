@@ -1,0 +1,8 @@
+<% layout('layouts/boilerplate') -%>
+
+<ul>
+    <%for(let item of user.cart){%>
+        <li><%=item.name%> ka price <%=item.price%></li>
+
+    <%}%>
+</ul>
